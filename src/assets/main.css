@@ -8,6 +8,10 @@
   font-weight: normal;
 }
 
+.editor.prose {
+  max-width: unset;
+}
+
 .ProseMirror {
   background-color: #fff;
   border-color: #6b7280;

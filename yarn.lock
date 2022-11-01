@@ -1175,11 +1175,6 @@
     prosemirror-transform "^1.7.0"
     prosemirror-view "^1.28.2"
 
-"@tiptap/extension-blockquote@^2.0.0-beta.199":
-  version "2.0.0-beta.199"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-blockquote/-/extension-blockquote-2.0.0-beta.199.tgz#f3957a638d515f6e38cd91eacb59cbedef06af6c"
-  integrity sha512-BbHKaIkVYgJCV5giJC3/bdXMZWxFylLKiAbOGSGwIsnnS5/oL+V4XN6hqcIDBxlcj3MQ/d9zG0+mvFyjRssAkg==
-
 "@tiptap/extension-bold@^2.0.0-beta.199":
   version "2.0.0-beta.199"
   resolved "https://registry.yarnpkg.com/@tiptap/extension-bold/-/extension-bold-2.0.0-beta.199.tgz#edb3dca9ca49ec128611629fbb5d17eaca62c506"
@@ -1198,18 +1193,6 @@
   version "2.0.0-beta.199"
   resolved "https://registry.yarnpkg.com/@tiptap/extension-bullet-list/-/extension-bullet-list-2.0.0-beta.199.tgz#72df0c94c6a9a5bce97ee1e0180657f1a63ffe18"
   integrity sha512-gGRQRqdQqCZQstB3ztSy8yzIdm5/5IIYxhCuFNb3Z9c9p/CzyRmaNqa7XkRLrXSajp4lS0OH8RkFUJqL6U+/9w==
-
-"@tiptap/extension-code-block@^2.0.0-beta.199":
-  version "2.0.0-beta.199"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-code-block/-/extension-code-block-2.0.0-beta.199.tgz#145baa37276601bce75ddad55ab4926bc78b28fc"
-  integrity sha512-ZfftYE1kHA2pD46hXDkeYd1vuxp3bJLS854B2yHfw1cp3JVDjMXzm4Mzg7zLfr+YV1dT/N/fUfdCg38fqEUCyA==
-  dependencies:
-    prosemirror-state "^1.4.1"
-
-"@tiptap/extension-code@^2.0.0-beta.199":
-  version "2.0.0-beta.199"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-code/-/extension-code-2.0.0-beta.199.tgz#ab6e2355297b3faddf6ac6e9e02a52eca38c16f6"
-  integrity sha512-P1U/xYD0MLT7JU2OHb3QoW7+JiPZXizFG/gTYmAHQV/gLH87cmflI7pPnloBdTkeIF0Q/cd6sSd75V9FxR4XJA==
 
 "@tiptap/extension-document@^2.0.0-beta.199":
   version "2.0.0-beta.199"
@@ -1256,13 +1239,6 @@
   dependencies:
     prosemirror-history "^1.3.0"
 
-"@tiptap/extension-horizontal-rule@^2.0.0-beta.199":
-  version "2.0.0-beta.199"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-horizontal-rule/-/extension-horizontal-rule-2.0.0-beta.199.tgz#6037b11f5a300ce0921a483d7fbbeea6a5b58f58"
-  integrity sha512-ISQndGiC6Y3+Ds3OJHKa2iB7s4FkRQxn8US/Hhj4yK7DOifoykLOrgDghwLu0H0dSM8KNb9caYEtmj64vDogNg==
-  dependencies:
-    prosemirror-state "^1.4.1"
-
 "@tiptap/extension-italic@^2.0.0-beta.199":
   version "2.0.0-beta.199"
   resolved "https://registry.yarnpkg.com/@tiptap/extension-italic/-/extension-italic-2.0.0-beta.199.tgz#db24dbdd0d47fdfaa22dde8ba35e2c08b7162e82"
@@ -1283,40 +1259,10 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-paragraph/-/extension-paragraph-2.0.0-beta.199.tgz#34213e6594a1183a77bb33ced49502bafb0a3d1c"
   integrity sha512-+BoMCaxlsHqw065zTUNd+ywkvFJzNKbTY461/AlKX2dgHeaO8doXHDQK+9icOpibQvrKaMhOJmuBTgGlJlUUgw==
 
-"@tiptap/extension-strike@^2.0.0-beta.199":
-  version "2.0.0-beta.199"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-strike/-/extension-strike-2.0.0-beta.199.tgz#5fc6e067728009d92027e58a042f18449f2fa264"
-  integrity sha512-KyN5+d9o9FGvrSiSuh81oo4+XjMDsZVY4UHc9lBY0nAzaGAkJOwkCjk40RfyO5ZJ2GdEEQ6Nh/3YqVMcJTY+rA==
-
 "@tiptap/extension-text@^2.0.0-beta.199":
   version "2.0.0-beta.199"
   resolved "https://registry.yarnpkg.com/@tiptap/extension-text/-/extension-text-2.0.0-beta.199.tgz#0204f3e50622e39b6fd08b5ef72fe7d0199117f5"
   integrity sha512-ntOqEhkBjDHrdzxvpPe4U1JB5GgE9/yyWqWdgzSL9lpSndRTJN1xQLOmyuv0qsLqOgBHn1YITHvaxPb3t8FrFw==
-
-"@tiptap/starter-kit@^2.0.0-beta.199":
-  version "2.0.0-beta.199"
-  resolved "https://registry.yarnpkg.com/@tiptap/starter-kit/-/starter-kit-2.0.0-beta.199.tgz#b0d48784abe711afc2973592467f213f86794c82"
-  integrity sha512-ToPhccdSAixNhAujBa5VEOg+G6Nkc+JJGaUVEEGH2EV2ICzbhFhcdbAHqI6lNtCFleaX9NULJBGHXEwLR5T83Q==
-  dependencies:
-    "@tiptap/core" "^2.0.0-beta.199"
-    "@tiptap/extension-blockquote" "^2.0.0-beta.199"
-    "@tiptap/extension-bold" "^2.0.0-beta.199"
-    "@tiptap/extension-bullet-list" "^2.0.0-beta.199"
-    "@tiptap/extension-code" "^2.0.0-beta.199"
-    "@tiptap/extension-code-block" "^2.0.0-beta.199"
-    "@tiptap/extension-document" "^2.0.0-beta.199"
-    "@tiptap/extension-dropcursor" "^2.0.0-beta.199"
-    "@tiptap/extension-gapcursor" "^2.0.0-beta.199"
-    "@tiptap/extension-hard-break" "^2.0.0-beta.199"
-    "@tiptap/extension-heading" "^2.0.0-beta.199"
-    "@tiptap/extension-history" "^2.0.0-beta.199"
-    "@tiptap/extension-horizontal-rule" "^2.0.0-beta.199"
-    "@tiptap/extension-italic" "^2.0.0-beta.199"
-    "@tiptap/extension-list-item" "^2.0.0-beta.199"
-    "@tiptap/extension-ordered-list" "^2.0.0-beta.199"
-    "@tiptap/extension-paragraph" "^2.0.0-beta.199"
-    "@tiptap/extension-strike" "^2.0.0-beta.199"
-    "@tiptap/extension-text" "^2.0.0-beta.199"
 
 "@tiptap/vue-3@^2.0.0-beta.199":
   version "2.0.0-beta.199"

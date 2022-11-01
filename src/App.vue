@@ -3,7 +3,7 @@
     <header class="prose lg:prose-xl mb-7">
       <h1>Samstag</h1>
     </header>
-    <editor-input v-model="content" />
+    <editor-input class="editor prose lg:prose-xl mb-7" v-model="content" />
   </main>
 </template>
 
