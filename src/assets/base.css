@@ -6,6 +6,10 @@
   url('./fonts/SourceSansPro-BoldItalic.ttf');
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   min-height: 100vh;
   line-height: 1.6;

@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <main>
-    Hello World
+  <main class="prose lg:prose-xl">
+    <h1>Samstag</h1>
   </main>
 </template>
 

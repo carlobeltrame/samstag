@@ -6,6 +6,6 @@ import App from "../App.vue";
 describe("App", () => {
   it("renders properly", () => {
     const wrapper = mount(App, { /*props: { msg: "Hello World" }*/ });
-    expect(wrapper.text()).toContain("Hello World");
+    expect(wrapper.text()).toContain("Samstag");
   });
 });
